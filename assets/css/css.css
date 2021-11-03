@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.mapa{
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+.mapa>div{
+    width: 5%;
+    height: 5%;
+    border: 1px solid black;
+    background-color: green;
+}
+.pj{
+    border-radius: 50%;
+    background-color: black!important;
+}
+.pj1{
+    background-color: blueviolet!important;
+}
+.fruta{
+    background-color: red!important;
+}
+p{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
